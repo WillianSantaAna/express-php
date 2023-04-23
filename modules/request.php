@@ -3,6 +3,7 @@
 class Request
 {
     private $params;
+    public $request_method;
 
     function __construct()
     {
